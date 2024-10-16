@@ -63,9 +63,9 @@ fun BlogItem(blog: Blog) {
         border = BorderStroke(width = 1.dp, color = Color.Black)
     ){
         Column(
-            modifier = Modifier.fillMaxWidth().padding(16.dp).clickable {
+            modifier = Modifier.fillMaxWidth().clickable {
                 navController.navigate(AppNavigation.WebView(blog.url ?: ""))
-            }
+            }.padding(16.dp)
         ) {
             blog.title.rendered?.let { it ->
                 Text(text = it, style = MaterialTheme.typography.titleMedium)
