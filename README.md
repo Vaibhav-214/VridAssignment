@@ -1,14 +1,24 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+## Features
+- **Multiplatform:** Single codebase for both android and ios.
+- **Blogs List View:** Explore a wide range of blogs.
+- **Web View:** Click on any blog to open in webview.
+- **Paging:** Pagination used for efficient loading of blogs.
+- **Compose Multiplatform:** Leverage Jetpack Compose for a modern and declarative UI across Android and other platforms.
+- **Ktor Client:** Utilize Ktor for efficient and scalable network communication.
+- **Android ViewModel:** Manage UI-related data lifecycle-aware using Android ViewModel.
+- **Compose Navigation:** Use Compose Navigation with type-safe arguments and shared element transitions.
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+## Technologies Used
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+- 🌐 **[Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/)**
+- 🖼️ **[Compose multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/)**
+- 🌍 **[Ktor](https://ktor.io/docs/client-create-new-application.html)**
+- 📊 **[Android ViewModel](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-viewmodel.html)**
+- 🧭 **[Compose Navigation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-navigation-routing.html)**
 
+## IOS Video 
+https://github.com/user-attachments/assets/8e7d215f-d0a7-403a-a0b7-1a079cbca814
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Android Video 
+https://github.com/user-attachments/assets/b5a2e37a-39de-4f4b-91d8-7329c4bba5ee
+
